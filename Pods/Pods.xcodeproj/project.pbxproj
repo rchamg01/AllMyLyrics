@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7C369AFA2A84F2AB987A42D782F25 /* HTTPMethod.swift */; };
+		03D5904E878910CB58A2A78C4884D153 /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95293C742E66516686720DBA9257E539 /* SalesforceSans-Bold.ttf */; };
+		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E0582B3E53CBA1071865997E6A1639 /* Combine.swift */; };
+		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5DD069A05AE59D274C2FBB696F9BD /* OperationQueue+Alamofire.swift */; };
+		10F946997EA4DA8C74F44B085D5AC333 /* SalesforceSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BD8F3C1783610BE3301570F2E89D0D2 /* SalesforceSans-Italic.ttf */; };
+		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA9FBD086D7515DAFEADE4C1A6F0454 /* AFError.swift */; };
+		1633DB7E82F330EC6979E5C6D18F38A7 /* SalesforceSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B49107295ED30FA681887949B34F7508 /* SalesforceSans-BoldItalic.ttf */; };
+		1675ADB27BE3628A3BAA691D1C386C27 /* Pods-pruebaPeticiones-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038E9BE2824CA44EFF680AA6BD48F763 /* Pods-pruebaPeticiones-dummy.m */; };
+		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E864CBED8CE363DE52EDB3E0E9322F /* NetworkReachabilityManager.swift */; };
+		1D66C151959B442EB2A3D0145BE3A3CC /* SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1A9100D0610D077CFED5BDA479F566 /* SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD1C5B8DF70F516D6A44F4B18450B4F /* StringEncoding+Alamofire.swift */; };
+		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A1ABF43A9EC8DC7223FBA2AA5FA5E7 /* Protected.swift */; };
+		21A1E535B1BAAD12743C3FA58888CD31 /* UIFont+SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D5606C4BA0388E067EC54897C05926 /* UIFont+SLDSFont.m */; };
+		25EBA4EB5BF13A06B716A1719B6A8777 /* SalesforceDesignSystemIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F06829604164A05F3846BA41A84ABD1 /* SalesforceDesignSystemIcons.ttf */; };
+		26BDED6738E0DE9F5E5417645A893B6E /* SalesforceSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A0ED30BC36ECB7064869FA7127780DD /* SalesforceSans-Thin.ttf */; };
+		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829CB11752D0656EB3B482750C38844 /* DispatchQueue+Alamofire.swift */; };
+		2E08684CBF37BBB92F4C79B4DC2E1AB7 /* SalesforceSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BC60B291F84CF6DC13E7BDF4D24BA3 /* SalesforceSans-ThinItalic.ttf */; };
+		31F63E898E24B8ED955A6BE619F3BE12 /* UIImage+SLDSIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F69B3F0F41AFF59C0607A815F8AC7C /* UIImage+SLDSIcon.m */; };
+		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C274EC5B5CFD3F50BE74A1F17CF1AB /* SessionDelegate.swift */; };
+		3C68D0DFAC2A69333E3E1C2972583495 /* UIImage+SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 038AFE9D1D51D0163A9AAC3D4AD3BBA4 /* UIImage+SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE598082AAB9BEBDFADC35243FFEF48E /* MultipartFormData.swift */; };
+		476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980ADC6B153D069D84FD965D4372B3A7 /* Foundation.framework */; };
+		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434517B167EC110294CA1DF8CFCB0B33 /* ServerTrustEvaluation.swift */; };
+		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF6475B6277EBB9D1259205C7844B7 /* ParameterEncoder.swift */; };
+		4C94D07B3D557DD27B9C9B4A9641AE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980ADC6B153D069D84FD965D4372B3A7 /* Foundation.framework */; };
+		61F445C67D3EA700BAC31E4E9F08124F /* SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 157E3FE43E0433BFD6E843FFF070BA6D /* SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63BDAD44B58B9A5700C0AB5C0A44E9A6 /* SLDSSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7FD9AE02110693EB6E3DEEF275C8FE /* SLDSSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE4F0C9FDCDCB8D40D02BEAFE43EDB7 /* EventMonitor.swift */; };
+		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC638F920BF2A6D5B05B30F11B1752F3 /* RedirectHandler.swift */; };
+		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B688F730E97589F1CACFC36B907C4B3 /* Result+Alamofire.swift */; };
+		678CE5F44FF35E110905ACD85F395435 /* License-for-SalesforceSans-font.txt in Resources */ = {isa = PBXBuildFile; fileRef = 90CC23FBDE918D814BCE9D6D33EBDC68 /* License-for-SalesforceSans-font.txt */; };
+		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76E3E89518A9381B21C02E6AC4BFA2A /* Session.swift */; };
+		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A768BD63100F81EA0378BA283B23023 /* RequestTaskMap.swift */; };
+		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC712A84DBD02A486965F3041CFECF2 /* RequestInterceptor.swift */; };
+		6E75B8AAF34F23C13B22CA44DA34EBF6 /* SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 90588391A409192AF525A87F636143C8 /* SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82D261C813AAA3C3A35252A5E914473 /* AlamofireExtended.swift */; };
+		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7960F029476002E93DD5F634A467597F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84EBD04A828C65EF07AD2D160376C1B4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF24B7DA1357AA4B742D771E17A2C88 /* CoreText.framework */; };
+		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A364C6BDF56557A887FA028E36A0FE38 /* Notifications.swift */; };
+		8E0DEB9548FF4B2D8B8D2BD1ED00195A /* UIColor+SLDSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE0BECCD7A40AC7E374C96086F8034F /* UIColor+SLDSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B99392F32351076494B219B7182DE7 /* ResponseSerialization.swift */; };
+		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04A1825197C6F69F75415AA6DA149AA /* HTTPHeaders.swift */; };
+		95606D2B8897CCD1E573B2F6D2DF6FEF /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F918A8D394ACDDF00227B70A252E33D /* SalesforceSans-Light.ttf */; };
+		98537F452884D68EDB270A1BB875A96F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 998D87E1A097F578A296F688F7D297FB /* UIKit.framework */; };
+		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBE6E8CDB79748C52FEF85CB5EE836 /* URLConvertible+URLRequestConvertible.swift */; };
+		9EF2613FA7235A7D60A5606B2391F4B2 /* UIFont+SLDSFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0AAC2F58880CCBF9583BAA9B4CFE01 /* UIFont+SLDSFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51DEC98100A69CB2306DD75B5ED317 /* RetryPolicy.swift */; };
+		A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA01F114FE71625BA1F05DA1BAA2A7E2 /* CFNetwork.framework */; };
+		AA49DADDE73B684CD618ECE211829152 /* SalesforceDesignSystem.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */; };
+		AAA4ECDDF71C21C440778AD310754A53 /* UIColor+SLDSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3357481CBD0E4DBD3D795D3DFECAD0 /* UIColor+SLDSColor.m */; };
+		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB74EAF9D43F91BDC0801FBFDDED1AA /* CachedResponseHandler.swift */; };
+		AEB0E1D2B25C1E4019A9C6194A9AEF22 /* SalesforceDesignSystemNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 869A2C13AE447AD41E8694FF2BE1ADFC /* SalesforceDesignSystemNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25B27064C36CE7E03DF73744188E410 /* NSString+SLDSName.h in Headers */ = {isa = PBXBuildFile; fileRef = 876781002104CCF24E41C9B2A7EE2B7C /* NSString+SLDSName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B0F8BA35C1C461BFA3F898915609E2 /* SalesforceSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AD20FB3964DD68C1B6FB04F3277486C /* SalesforceSans-LightItalic.ttf */; };
+		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7423DE2BC3E7550C3A6A85797EB0DD6D /* Response.swift */; };
+		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE39A235BBFE1063BB98B4226283E09E /* Alamofire.swift */; };
+		C5B44D13831F9D5220C1B44A79C7543E /* NSString+SLDSName.m in Sources */ = {isa = PBXBuildFile; fileRef = A82BAD0E5A7449420940E1F9E776320E /* NSString+SLDSName.m */; };
+		C624380B78C8FFDB268A06E00AC415D5 /* SLDSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = E78EAB2936D90B0617DC68B840ECBAA7 /* SLDSIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7032E7F6948D2F7D9459F302836F6F54 /* Alamofire-dummy.m */; };
+		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB75FA475CCC09922105CC8143E7840 /* MultipartUpload.swift */; };
+		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493B9FE082A57020487249122C53C2A6 /* ParameterEncoding.swift */; };
+		D25F1F441EA6E630E2C6EF2DDD62C653 /* SLDSFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9A720C35FDCE0559784189C91D529 /* SLDSFont.m */; };
+		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEAE8B1411E956E865844A203163377 /* URLEncodedFormEncoder.swift */; };
+		D5DB7A81282CD4E986FFCC98F2A6B858 /* DesignSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6AC7FFB0D1922AC10115F987E23E03 /* DesignSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB10895B8B5E4C849DCB3A04722A8AD1 /* URLRequest+Alamofire.swift */; };
+		D6278A873B7357879F2D1E45AD905E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980ADC6B153D069D84FD965D4372B3A7 /* Foundation.framework */; };
+		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324E93B81D7C72A3FEDC620D9FD4158E /* AuthenticationInterceptor.swift */; };
+		ED86E5E74FF2435AB63C02C3E5EA8E90 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A781B6FADE8C9EA6F206FEF4CA63C53E /* SalesforceSans-Regular.ttf */; };
+		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D5D22AB06AADE52FA4050009973A8F /* Request.swift */; };
+		EDD6B2A0FA90C24E0F6232C226E231FD /* DesignSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BFDF7E0E5071488299902A9395C861 /* DesignSystem-dummy.m */; };
+		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07B4016F2A515BD22BC80271965FE46 /* Validation.swift */; };
+		F522963F45FEC84B799ECF353BB2D482 /* License-for-SalesforceDesignSystemIcons.txt in Resources */ = {isa = PBXBuildFile; fileRef = B330FD790120C7AF450EDF7E185F65CE /* License-for-SalesforceDesignSystemIcons.txt */; };
+		F5F8B082DEECB7C9AF584E98B25A2538 /* Pods-pruebaPeticiones-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3E16EB58608FDC0E9F85FABB3A7206 /* Pods-pruebaPeticiones-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4E0343628B76C6D6A28BB95AAF525B /* URLSessionConfiguration+Alamofire.swift */; };
+		F7ACD71A9F2A41761D372B07F19E084C /* SalesforceDesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7077F623363BE5CA35590D3EBCFF810D /* SalesforceDesignSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7815DD8D8DEDC706065A073163EBF0B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194A56F2B926B90E05CF289C5AA5A248;
+			remoteInfo = DesignSystem;
+		};
+		AED13B9B350880121D958B2C6EB25E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		F6BE521152FFF582C4BF64A3EE8DADE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 828F14A5FC34AAA0EBB198E49E27BB99;
+			remoteInfo = "DesignSystem-SalesforceDesignSystem";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038AFE9D1D51D0163A9AAC3D4AD3BBA4 /* UIImage+SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SLDSIcon.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.h"; sourceTree = "<group>"; };
+		038E9BE2824CA44EFF680AA6BD48F763 /* Pods-pruebaPeticiones-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pruebaPeticiones-dummy.m"; sourceTree = "<group>"; };
+		04BC60B291F84CF6DC13E7BDF4D24BA3 /* SalesforceSans-ThinItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-ThinItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0829CB11752D0656EB3B482750C38844 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesforceDesignSystem.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE4F0C9FDCDCB8D40D02BEAFE43EDB7 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		11506689D65A435350005CEB9597A3E5 /* Pods-pruebaPeticiones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pruebaPeticiones.debug.xcconfig"; sourceTree = "<group>"; };
+		157E3FE43E0433BFD6E843FFF070BA6D /* SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSName.h; path = SalesforceDesignSystem/Generated/SLDSName.h; sourceTree = "<group>"; };
+		18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3E16EB58608FDC0E9F85FABB3A7206 /* Pods-pruebaPeticiones-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pruebaPeticiones-umbrella.h"; sourceTree = "<group>"; };
+		1CD9A720C35FDCE0559784189C91D529 /* SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLDSFont.m; path = SalesforceDesignSystem/Generated/SLDSFont.m; sourceTree = "<group>"; };
+		22A4837B50B6D2AF711884962DB7B513 /* Pods-pruebaPeticiones-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pruebaPeticiones-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B688F730E97589F1CACFC36B907C4B3 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		2FC712A84DBD02A486965F3041CFECF2 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		324E93B81D7C72A3FEDC620D9FD4158E /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		332F10F949147AB44C075343DD74F3BC /* DesignSystem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-prefix.pch"; sourceTree = "<group>"; };
+		35D5606C4BA0388E067EC54897C05926 /* UIFont+SLDSFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SLDSFont.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.m"; sourceTree = "<group>"; };
+		37E0582B3E53CBA1071865997E6A1639 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		3F918A8D394ACDDF00227B70A252E33D /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-Light.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
+		434517B167EC110294CA1DF8CFCB0B33 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		460FF3001DCCCBD047846EB3845E7C82 /* DesignSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DesignSystem.release.xcconfig; sourceTree = "<group>"; };
+		4858400E1FCD6BEC58263D02FB156908 /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		493B9FE082A57020487249122C53C2A6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		4A0AAC2F58880CCBF9583BAA9B4CFE01 /* UIFont+SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SLDSFont.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIFont+SLDSFont.h"; sourceTree = "<group>"; };
+		4AB75FA475CCC09922105CC8143E7840 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		53A1ABF43A9EC8DC7223FBA2AA5FA5E7 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		5A768BD63100F81EA0378BA283B23023 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		5AD20FB3964DD68C1B6FB04F3277486C /* SalesforceSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-LightItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		5AFBE6E8CDB79748C52FEF85CB5EE836 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7FD9AE02110693EB6E3DEEF275C8FE /* SLDSSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSSize.h; path = SalesforceDesignSystem/Generated/SLDSSize.h; sourceTree = "<group>"; };
+		5FEB19F85D0CF9F83A05B8FA56E2FB98 /* Pods_pruebaPeticiones.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pruebaPeticiones.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CA11E3BFE9E3D479CAA8CF8E2BB350 /* Pods-pruebaPeticiones.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-pruebaPeticiones.modulemap"; sourceTree = "<group>"; };
+		68D992357957F63D9B03965F4BEEF225 /* DesignSystem-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DesignSystem-Info.plist"; sourceTree = "<group>"; };
+		6A0ED30BC36ECB7064869FA7127780DD /* SalesforceSans-Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-Thin.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Thin.ttf"; sourceTree = "<group>"; };
+		6BD8F3C1783610BE3301570F2E89D0D2 /* SalesforceSans-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-Italic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Italic.ttf"; sourceTree = "<group>"; };
+		6FD1C5B8DF70F516D6A44F4B18450B4F /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		7032E7F6948D2F7D9459F302836F6F54 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		705879E2253AB8136F92D19E00FDA3F7 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		7077F623363BE5CA35590D3EBCFF810D /* SalesforceDesignSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystem.h; path = SalesforceDesignSystem/SalesforceDesignSystem.h; sourceTree = "<group>"; };
+		7423DE2BC3E7550C3A6A85797EB0DD6D /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		7960F029476002E93DD5F634A467597F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		7F06829604164A05F3846BA41A84ABD1 /* SalesforceDesignSystemIcons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = SalesforceDesignSystemIcons.ttf; path = SalesforceDesignSystem.bundle/SalesforceDesignSystemIcons.ttf; sourceTree = "<group>"; };
+		7F51DEC98100A69CB2306DD75B5ED317 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		82BFDF7E0E5071488299902A9395C861 /* DesignSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DesignSystem-dummy.m"; sourceTree = "<group>"; };
+		869A2C13AE447AD41E8694FF2BE1ADFC /* SalesforceDesignSystemNames.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SalesforceDesignSystemNames.h; path = SalesforceDesignSystem/SalesforceDesignSystemNames.h; sourceTree = "<group>"; };
+		876781002104CCF24E41C9B2A7EE2B7C /* NSString+SLDSName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SLDSName.h"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.h"; sourceTree = "<group>"; };
+		8C6AC7FFB0D1922AC10115F987E23E03 /* DesignSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DesignSystem-umbrella.h"; sourceTree = "<group>"; };
+		8CF24B7DA1357AA4B742D771E17A2C88 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		8FB74EAF9D43F91BDC0801FBFDDED1AA /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		90588391A409192AF525A87F636143C8 /* SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSColor.h; path = SalesforceDesignSystem/Generated/SLDSColor.h; sourceTree = "<group>"; };
+		90CC23FBDE918D814BCE9D6D33EBDC68 /* License-for-SalesforceSans-font.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "License-for-SalesforceSans-font.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceSans-font.txt"; sourceTree = "<group>"; };
+		916B7851E327B9A1ECC804C3914C2FD4 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		95293C742E66516686720DBA9257E539 /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-Bold.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
+		980ADC6B153D069D84FD965D4372B3A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		998D87E1A097F578A296F688F7D297FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		99D5D22AB06AADE52FA4050009973A8F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA7C369AFA2A84F2AB987A42D782F25 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		A04A1825197C6F69F75415AA6DA149AA /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		A364C6BDF56557A887FA028E36A0FE38 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		A3B99392F32351076494B219B7182DE7 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		A781B6FADE8C9EA6F206FEF4CA63C53E /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-Regular.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
+		A7E864CBED8CE363DE52EDB3E0E9322F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A82BAD0E5A7449420940E1F9E776320E /* NSString+SLDSName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SLDSName.m"; path = "SalesforceDesignSystem/Generated/Extensions/NSString+SLDSName.m"; sourceTree = "<group>"; };
+		AA9CE0147AAD7BF3F76BEA3C4BB18209 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		ABE0BECCD7A40AC7E374C96086F8034F /* UIColor+SLDSColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SLDSColor.h"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.h"; sourceTree = "<group>"; };
+		ADBF6475B6277EBB9D1259205C7844B7 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		AE553C68337076267B9AF188A25E2C19 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		AFEAE8B1411E956E865844A203163377 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		B330FD790120C7AF450EDF7E185F65CE /* License-for-SalesforceDesignSystemIcons.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "License-for-SalesforceDesignSystemIcons.txt"; path = "SalesforceDesignSystem.bundle/License-for-SalesforceDesignSystemIcons.txt"; sourceTree = "<group>"; };
+		B49107295ED30FA681887949B34F7508 /* SalesforceSans-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "SalesforceSans-BoldItalic.ttf"; path = "SalesforceDesignSystem.bundle/SalesforceSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BB4E0343628B76C6D6A28BB95AAF525B /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		BBA9FBD086D7515DAFEADE4C1A6F0454 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		C07B4016F2A515BD22BC80271965FE46 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		CA01F114FE71625BA1F05DA1BAA2A7E2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		CB10895B8B5E4C849DCB3A04722A8AD1 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		D3A413218A41B1AD7B607033E16CC540 /* Pods-pruebaPeticiones-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pruebaPeticiones-Info.plist"; sourceTree = "<group>"; };
+		D3A4CB4C7FE6F54BE01A93F42AD52E02 /* Pods-pruebaPeticiones-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pruebaPeticiones-acknowledgements.plist"; sourceTree = "<group>"; };
+		D82D261C813AAA3C3A35252A5E914473 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		D8432AEFD89CEBA164A0240CB9350EB9 /* DesignSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DesignSystem.modulemap; sourceTree = "<group>"; };
+		DA1A9100D0610D077CFED5BDA479F566 /* SLDSFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSFont.h; path = SalesforceDesignSystem/Generated/SLDSFont.h; sourceTree = "<group>"; };
+		DC638F920BF2A6D5B05B30F11B1752F3 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		DC878DD8ABD1CEED3712578AA644E601 /* Pods-pruebaPeticiones-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pruebaPeticiones-frameworks.sh"; sourceTree = "<group>"; };
+		DE39A235BBFE1063BB98B4226283E09E /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		E2C274EC5B5CFD3F50BE74A1F17CF1AB /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		E76E3E89518A9381B21C02E6AC4BFA2A /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		E78EAB2936D90B0617DC68B840ECBAA7 /* SLDSIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLDSIcon.h; path = SalesforceDesignSystem/Generated/SLDSIcon.h; sourceTree = "<group>"; };
+		EB450D5151A3041B17F64ED91AA6C393 /* DesignSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DesignSystem.debug.xcconfig; sourceTree = "<group>"; };
+		EC3357481CBD0E4DBD3D795D3DFECAD0 /* UIColor+SLDSColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SLDSColor.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIColor+SLDSColor.m"; sourceTree = "<group>"; };
+		EE598082AAB9BEBDFADC35243FFEF48E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		EEB5DD069A05AE59D274C2FBB696F9BD /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F3F69B3F0F41AFF59C0607A815F8AC7C /* UIImage+SLDSIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SLDSIcon.m"; path = "SalesforceDesignSystem/Generated/Extensions/UIImage+SLDSIcon.m"; sourceTree = "<group>"; };
+		F9FD312AC90EA45C2C0356790FF4E949 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		FDE17C65537F0540A1217C3B012492A6 /* Pods-pruebaPeticiones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pruebaPeticiones.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222FF914475B042BC00F76ECB0050E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C94D07B3D557DD27B9C9B4A9641AE84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1D6FE3C5853993A539989EC0279087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EBD04A828C65EF07AD2D160376C1B4 /* CoreText.framework in Frameworks */,
+				D6278A873B7357879F2D1E45AD905E17 /* Foundation.framework in Frameworks */,
+				98537F452884D68EDB270A1BB875A96F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C00B11820D64DC67EAC073B0387EBAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */,
+				476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078838AF6910E9B770BE0CC7522B13FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B330FD790120C7AF450EDF7E185F65CE /* License-for-SalesforceDesignSystemIcons.txt */,
+				90CC23FBDE918D814BCE9D6D33EBDC68 /* License-for-SalesforceSans-font.txt */,
+				7F06829604164A05F3846BA41A84ABD1 /* SalesforceDesignSystemIcons.ttf */,
+				95293C742E66516686720DBA9257E539 /* SalesforceSans-Bold.ttf */,
+				B49107295ED30FA681887949B34F7508 /* SalesforceSans-BoldItalic.ttf */,
+				6BD8F3C1783610BE3301570F2E89D0D2 /* SalesforceSans-Italic.ttf */,
+				3F918A8D394ACDDF00227B70A252E33D /* SalesforceSans-Light.ttf */,
+				5AD20FB3964DD68C1B6FB04F3277486C /* SalesforceSans-LightItalic.ttf */,
+				A781B6FADE8C9EA6F206FEF4CA63C53E /* SalesforceSans-Regular.ttf */,
+				6A0ED30BC36ECB7064869FA7127780DD /* SalesforceSans-Thin.ttf */,
+				04BC60B291F84CF6DC13E7BDF4D24BA3 /* SalesforceSans-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4144ADCCA9E8C763937A02EB8526792E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8432AEFD89CEBA164A0240CB9350EB9 /* DesignSystem.modulemap */,
+				82BFDF7E0E5071488299902A9395C861 /* DesignSystem-dummy.m */,
+				68D992357957F63D9B03965F4BEEF225 /* DesignSystem-Info.plist */,
+				332F10F949147AB44C075343DD74F3BC /* DesignSystem-prefix.pch */,
+				8C6AC7FFB0D1922AC10115F987E23E03 /* DesignSystem-umbrella.h */,
+				EB450D5151A3041B17F64ED91AA6C393 /* DesignSystem.debug.xcconfig */,
+				460FF3001DCCCBD047846EB3845E7C82 /* DesignSystem.release.xcconfig */,
+				4858400E1FCD6BEC58263D02FB156908 /* ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DesignSystem";
+			sourceTree = "<group>";
+		};
+		6597A0D75AA49D0D86A0757EB04D50DF /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				BBA9FBD086D7515DAFEADE4C1A6F0454 /* AFError.swift */,
+				DE39A235BBFE1063BB98B4226283E09E /* Alamofire.swift */,
+				D82D261C813AAA3C3A35252A5E914473 /* AlamofireExtended.swift */,
+				324E93B81D7C72A3FEDC620D9FD4158E /* AuthenticationInterceptor.swift */,
+				8FB74EAF9D43F91BDC0801FBFDDED1AA /* CachedResponseHandler.swift */,
+				37E0582B3E53CBA1071865997E6A1639 /* Combine.swift */,
+				0829CB11752D0656EB3B482750C38844 /* DispatchQueue+Alamofire.swift */,
+				0CE4F0C9FDCDCB8D40D02BEAFE43EDB7 /* EventMonitor.swift */,
+				A04A1825197C6F69F75415AA6DA149AA /* HTTPHeaders.swift */,
+				9EA7C369AFA2A84F2AB987A42D782F25 /* HTTPMethod.swift */,
+				EE598082AAB9BEBDFADC35243FFEF48E /* MultipartFormData.swift */,
+				4AB75FA475CCC09922105CC8143E7840 /* MultipartUpload.swift */,
+				A7E864CBED8CE363DE52EDB3E0E9322F /* NetworkReachabilityManager.swift */,
+				A364C6BDF56557A887FA028E36A0FE38 /* Notifications.swift */,
+				EEB5DD069A05AE59D274C2FBB696F9BD /* OperationQueue+Alamofire.swift */,
+				ADBF6475B6277EBB9D1259205C7844B7 /* ParameterEncoder.swift */,
+				493B9FE082A57020487249122C53C2A6 /* ParameterEncoding.swift */,
+				53A1ABF43A9EC8DC7223FBA2AA5FA5E7 /* Protected.swift */,
+				DC638F920BF2A6D5B05B30F11B1752F3 /* RedirectHandler.swift */,
+				99D5D22AB06AADE52FA4050009973A8F /* Request.swift */,
+				2FC712A84DBD02A486965F3041CFECF2 /* RequestInterceptor.swift */,
+				5A768BD63100F81EA0378BA283B23023 /* RequestTaskMap.swift */,
+				7423DE2BC3E7550C3A6A85797EB0DD6D /* Response.swift */,
+				A3B99392F32351076494B219B7182DE7 /* ResponseSerialization.swift */,
+				2B688F730E97589F1CACFC36B907C4B3 /* Result+Alamofire.swift */,
+				7F51DEC98100A69CB2306DD75B5ED317 /* RetryPolicy.swift */,
+				434517B167EC110294CA1DF8CFCB0B33 /* ServerTrustEvaluation.swift */,
+				E76E3E89518A9381B21C02E6AC4BFA2A /* Session.swift */,
+				E2C274EC5B5CFD3F50BE74A1F17CF1AB /* SessionDelegate.swift */,
+				6FD1C5B8DF70F516D6A44F4B18450B4F /* StringEncoding+Alamofire.swift */,
+				5AFBE6E8CDB79748C52FEF85CB5EE836 /* URLConvertible+URLRequestConvertible.swift */,
+				AFEAE8B1411E956E865844A203163377 /* URLEncodedFormEncoder.swift */,
+				CB10895B8B5E4C849DCB3A04722A8AD1 /* URLRequest+Alamofire.swift */,
+				BB4E0343628B76C6D6A28BB95AAF525B /* URLSessionConfiguration+Alamofire.swift */,
+				C07B4016F2A515BD22BC80271965FE46 /* Validation.swift */,
+				F696FA8B4D8800CCCA9B7C9A0F65F91D /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		6B0256B2D30DA40574C2CF40C2217120 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5BCA1E7ED98961F5E13171DD3DDD6F8 /* Pods-pruebaPeticiones */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E427668FF580D548D4C5F8C3F39630C /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				876781002104CCF24E41C9B2A7EE2B7C /* NSString+SLDSName.h */,
+				A82BAD0E5A7449420940E1F9E776320E /* NSString+SLDSName.m */,
+				7077F623363BE5CA35590D3EBCFF810D /* SalesforceDesignSystem.h */,
+				869A2C13AE447AD41E8694FF2BE1ADFC /* SalesforceDesignSystemNames.h */,
+				90588391A409192AF525A87F636143C8 /* SLDSColor.h */,
+				DA1A9100D0610D077CFED5BDA479F566 /* SLDSFont.h */,
+				1CD9A720C35FDCE0559784189C91D529 /* SLDSFont.m */,
+				E78EAB2936D90B0617DC68B840ECBAA7 /* SLDSIcon.h */,
+				157E3FE43E0433BFD6E843FFF070BA6D /* SLDSName.h */,
+				5E7FD9AE02110693EB6E3DEEF275C8FE /* SLDSSize.h */,
+				ABE0BECCD7A40AC7E374C96086F8034F /* UIColor+SLDSColor.h */,
+				EC3357481CBD0E4DBD3D795D3DFECAD0 /* UIColor+SLDSColor.m */,
+				4A0AAC2F58880CCBF9583BAA9B4CFE01 /* UIFont+SLDSFont.h */,
+				35D5606C4BA0388E067EC54897C05926 /* UIFont+SLDSFont.m */,
+				038AFE9D1D51D0163A9AAC3D4AD3BBA4 /* UIImage+SLDSIcon.h */,
+				F3F69B3F0F41AFF59C0607A815F8AC7C /* UIImage+SLDSIcon.m */,
+				078838AF6910E9B770BE0CC7522B13FA /* Resources */,
+				4144ADCCA9E8C763937A02EB8526792E /* Support Files */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E02832FFD6BBEE8712D86A16D328A7DB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5BCA1E7ED98961F5E13171DD3DDD6F8 /* Pods-pruebaPeticiones */ = {
+			isa = PBXGroup;
+			children = (
+				66CA11E3BFE9E3D479CAA8CF8E2BB350 /* Pods-pruebaPeticiones.modulemap */,
+				22A4837B50B6D2AF711884962DB7B513 /* Pods-pruebaPeticiones-acknowledgements.markdown */,
+				D3A4CB4C7FE6F54BE01A93F42AD52E02 /* Pods-pruebaPeticiones-acknowledgements.plist */,
+				038E9BE2824CA44EFF680AA6BD48F763 /* Pods-pruebaPeticiones-dummy.m */,
+				DC878DD8ABD1CEED3712578AA644E601 /* Pods-pruebaPeticiones-frameworks.sh */,
+				D3A413218A41B1AD7B607033E16CC540 /* Pods-pruebaPeticiones-Info.plist */,
+				1B3E16EB58608FDC0E9F85FABB3A7206 /* Pods-pruebaPeticiones-umbrella.h */,
+				11506689D65A435350005CEB9597A3E5 /* Pods-pruebaPeticiones.debug.xcconfig */,
+				FDE17C65537F0540A1217C3B012492A6 /* Pods-pruebaPeticiones.release.xcconfig */,
+			);
+			name = "Pods-pruebaPeticiones";
+			path = "Target Support Files/Pods-pruebaPeticiones";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				D6A95023E31101170913E8E2A97AAB84 /* Pods */,
+				E7D3A1139186991A8268856EE683573D /* Products */,
+				6B0256B2D30DA40574C2CF40C2217120 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D6A95023E31101170913E8E2A97AAB84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6597A0D75AA49D0D86A0757EB04D50DF /* Alamofire */,
+				9E427668FF580D548D4C5F8C3F39630C /* DesignSystem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E02832FFD6BBEE8712D86A16D328A7DB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA01F114FE71625BA1F05DA1BAA2A7E2 /* CFNetwork.framework */,
+				8CF24B7DA1357AA4B742D771E17A2C88 /* CoreText.framework */,
+				980ADC6B153D069D84FD965D4372B3A7 /* Foundation.framework */,
+				998D87E1A097F578A296F688F7D297FB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E7D3A1139186991A8268856EE683573D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */,
+				5FEB19F85D0CF9F83A05B8FA56E2FB98 /* Pods_pruebaPeticiones.framework */,
+				0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F696FA8B4D8800CCCA9B7C9A0F65F91D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE553C68337076267B9AF188A25E2C19 /* Alamofire.modulemap */,
+				7032E7F6948D2F7D9459F302836F6F54 /* Alamofire-dummy.m */,
+				916B7851E327B9A1ECC804C3914C2FD4 /* Alamofire-Info.plist */,
+				AA9CE0147AAD7BF3F76BEA3C4BB18209 /* Alamofire-prefix.pch */,
+				7960F029476002E93DD5F634A467597F /* Alamofire-umbrella.h */,
+				F9FD312AC90EA45C2C0356790FF4E949 /* Alamofire.debug.xcconfig */,
+				705879E2253AB8136F92D19E00FDA3F7 /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BA9AD5EC761F11AC436CC5CA436AF59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DB7A81282CD4E986FFCC98F2A6B858 /* DesignSystem-umbrella.h in Headers */,
+				B25B27064C36CE7E03DF73744188E410 /* NSString+SLDSName.h in Headers */,
+				F7ACD71A9F2A41761D372B07F19E084C /* SalesforceDesignSystem.h in Headers */,
+				AEB0E1D2B25C1E4019A9C6194A9AEF22 /* SalesforceDesignSystemNames.h in Headers */,
+				6E75B8AAF34F23C13B22CA44DA34EBF6 /* SLDSColor.h in Headers */,
+				1D66C151959B442EB2A3D0145BE3A3CC /* SLDSFont.h in Headers */,
+				C624380B78C8FFDB268A06E00AC415D5 /* SLDSIcon.h in Headers */,
+				61F445C67D3EA700BAC31E4E9F08124F /* SLDSName.h in Headers */,
+				63BDAD44B58B9A5700C0AB5C0A44E9A6 /* SLDSSize.h in Headers */,
+				8E0DEB9548FF4B2D8B8D2BD1ED00195A /* UIColor+SLDSColor.h in Headers */,
+				9EF2613FA7235A7D60A5606B2391F4B2 /* UIFont+SLDSFont.h in Headers */,
+				3C68D0DFAC2A69333E3E1C2972583495 /* UIImage+SLDSIcon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070B01910C64B9AFD0DB550EDE38D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		882877AC52E99C19FFFF99EF5B04170F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F8B082DEECB7C9AF584E98B25A2538 /* Pods-pruebaPeticiones-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7868E247457C8DDEDCBBD6933DDAA63B /* Build configuration list for PBXNativeTarget "DesignSystem" */;
+			buildPhases = (
+				6BA9AD5EC761F11AC436CC5CA436AF59 /* Headers */,
+				05403B911AD37EC6263BC15CAFDEC21F /* Sources */,
+				2F1D6FE3C5853993A539989EC0279087 /* Frameworks */,
+				ED43B60079639AEA5CFCAE03AD13C836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BA3F464E5109AA0A826DA2CE9E839F7 /* PBXTargetDependency */,
+			);
+			name = DesignSystem;
+			productName = DesignSystem;
+			productReference = 18034BE93636D73186D5565F11990DC7 /* DesignSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582B2B4FE638A95BCE4D824A86B9AE3F /* Build configuration list for PBXNativeTarget "DesignSystem-SalesforceDesignSystem" */;
+			buildPhases = (
+				072162A1B310B4F797D10AD6BB9B7857 /* Sources */,
+				7C00B11820D64DC67EAC073B0387EBAE /* Frameworks */,
+				ED08EF29BC630AC52548A99E0097D76D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DesignSystem-SalesforceDesignSystem";
+			productName = "DesignSystem-SalesforceDesignSystem";
+			productReference = 0CD49C046E4524295F025E0560C3E93B /* SalesforceDesignSystem.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9DCA79203EB05FB91D1815ACA3534F15 /* Pods-pruebaPeticiones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC9EE5B329031F30062050518438D62 /* Build configuration list for PBXNativeTarget "Pods-pruebaPeticiones" */;
+			buildPhases = (
+				882877AC52E99C19FFFF99EF5B04170F /* Headers */,
+				9922EEB0A4BC22C794EC59F7384732AF /* Sources */,
+				222FF914475B042BC00F76ECB0050E90 /* Frameworks */,
+				F1C2B4D588BF04ACF506873B6E72D183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32A9194743F450D957D7902EE14B00A /* PBXTargetDependency */,
+				ABC98051067191CCBC946533CA11D2D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-pruebaPeticiones";
+			productName = "Pods-pruebaPeticiones";
+			productReference = 5FEB19F85D0CF9F83A05B8FA56E2FB98 /* Pods_pruebaPeticiones.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				8070B01910C64B9AFD0DB550EDE38D6B /* Headers */,
+				2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */,
+				9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */,
+				9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E7D3A1139186991A8268856EE683573D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */,
+				828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */,
+				9DCA79203EB05FB91D1815ACA3534F15 /* Pods-pruebaPeticiones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED08EF29BC630AC52548A99E0097D76D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F522963F45FEC84B799ECF353BB2D482 /* License-for-SalesforceDesignSystemIcons.txt in Resources */,
+				678CE5F44FF35E110905ACD85F395435 /* License-for-SalesforceSans-font.txt in Resources */,
+				25EBA4EB5BF13A06B716A1719B6A8777 /* SalesforceDesignSystemIcons.ttf in Resources */,
+				03D5904E878910CB58A2A78C4884D153 /* SalesforceSans-Bold.ttf in Resources */,
+				1633DB7E82F330EC6979E5C6D18F38A7 /* SalesforceSans-BoldItalic.ttf in Resources */,
+				10F946997EA4DA8C74F44B085D5AC333 /* SalesforceSans-Italic.ttf in Resources */,
+				95606D2B8897CCD1E573B2F6D2DF6FEF /* SalesforceSans-Light.ttf in Resources */,
+				B3B0F8BA35C1C461BFA3F898915609E2 /* SalesforceSans-LightItalic.ttf in Resources */,
+				ED86E5E74FF2435AB63C02C3E5EA8E90 /* SalesforceSans-Regular.ttf in Resources */,
+				26BDED6738E0DE9F5E5417645A893B6E /* SalesforceSans-Thin.ttf in Resources */,
+				2E08684CBF37BBB92F4C79B4DC2E1AB7 /* SalesforceSans-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED43B60079639AEA5CFCAE03AD13C836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA49DADDE73B684CD618ECE211829152 /* SalesforceDesignSystem.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C2B4D588BF04ACF506873B6E72D183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05403B911AD37EC6263BC15CAFDEC21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD6B2A0FA90C24E0F6232C226E231FD /* DesignSystem-dummy.m in Sources */,
+				C5B44D13831F9D5220C1B44A79C7543E /* NSString+SLDSName.m in Sources */,
+				D25F1F441EA6E630E2C6EF2DDD62C653 /* SLDSFont.m in Sources */,
+				AAA4ECDDF71C21C440778AD310754A53 /* UIColor+SLDSColor.m in Sources */,
+				21A1E535B1BAAD12743C3FA58888CD31 /* UIFont+SLDSFont.m in Sources */,
+				31F63E898E24B8ED955A6BE619F3BE12 /* UIImage+SLDSIcon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072162A1B310B4F797D10AD6BB9B7857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */,
+				C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */,
+				C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */,
+				72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */,
+				DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */,
+				ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */,
+				0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */,
+				27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */,
+				6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */,
+				91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */,
+				013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */,
+				45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */,
+				D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */,
+				19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */,
+				8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */,
+				0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */,
+				4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */,
+				D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */,
+				218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */,
+				666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */,
+				EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */,
+				6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */,
+				6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */,
+				C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */,
+				911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */,
+				66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */,
+				9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */,
+				47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */,
+				6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */,
+				381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */,
+				212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */,
+				9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */,
+				D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */,
+				F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9922EEB0A4BC22C794EC59F7384732AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1675ADB27BE3628A3BAA691D1C386C27 /* Pods-pruebaPeticiones-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BA3F464E5109AA0A826DA2CE9E839F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DesignSystem-SalesforceDesignSystem";
+			target = 828F14A5FC34AAA0EBB198E49E27BB99 /* DesignSystem-SalesforceDesignSystem */;
+			targetProxy = F6BE521152FFF582C4BF64A3EE8DADE4 /* PBXContainerItemProxy */;
+		};
+		ABC98051067191CCBC946533CA11D2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DesignSystem;
+			target = 194A56F2B926B90E05CF289C5AA5A248 /* DesignSystem */;
+			targetProxy = 7815DD8D8DEDC706065A073163EBF0B1 /* PBXContainerItemProxy */;
+		};
+		B32A9194743F450D957D7902EE14B00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = AED13B9B350880121D958B2C6EB25E2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D1832B93DE9094F5235CBBF20307238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB450D5151A3041B17F64ED91AA6C393 /* DesignSystem.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
+				IBSC_MODULE = DesignSystem;
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = SalesforceDesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FD312AC90EA45C2C0356790FF4E949 /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35E115CA9970D591161DC9CCD3D9044C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460FF3001DCCCBD047846EB3845E7C82 /* DesignSystem.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DesignSystem";
+				IBSC_MODULE = DesignSystem;
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/ResourceBundle-SalesforceDesignSystem-DesignSystem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_NAME = SalesforceDesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4ED9A1B8B46DA9EE7C99B19E27EE775A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11506689D65A435350005CEB9597A3E5 /* Pods-pruebaPeticiones.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pruebaPeticiones/Pods-pruebaPeticiones-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pruebaPeticiones/Pods-pruebaPeticiones.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Pods-AllMyLyrics";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B8813477B8046756585142BC2804DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE17C65537F0540A1217C3B012492A6 /* Pods-pruebaPeticiones.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-pruebaPeticiones/Pods-pruebaPeticiones-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-pruebaPeticiones/Pods-pruebaPeticiones.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.Pods-AllMyLyrics";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		998C1A1FFB5C19EA5B5E99147EA071A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB450D5151A3041B17F64ED91AA6C393 /* DesignSystem.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DesignSystem/DesignSystem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/DesignSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DesignSystem/DesignSystem.modulemap";
+				PRODUCT_MODULE_NAME = DesignSystem;
+				PRODUCT_NAME = DesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B66E952E27F29569285AB82461A2F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705879E2253AB8136F92D19E00FDA3F7 /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDBD4A73CDA3CA5A1AA5EA6E6A006117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460FF3001DCCCBD047846EB3845E7C82 /* DesignSystem.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DesignSystem/DesignSystem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DesignSystem/DesignSystem-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DesignSystem/DesignSystem.modulemap";
+				PRODUCT_MODULE_NAME = DesignSystem;
+				PRODUCT_NAME = DesignSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582B2B4FE638A95BCE4D824A86B9AE3F /* Build configuration list for PBXNativeTarget "DesignSystem-SalesforceDesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1832B93DE9094F5235CBBF20307238 /* Debug */,
+				35E115CA9970D591161DC9CCD3D9044C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7868E247457C8DDEDCBBD6933DDAA63B /* Build configuration list for PBXNativeTarget "DesignSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998C1A1FFB5C19EA5B5E99147EA071A8 /* Debug */,
+				DDBD4A73CDA3CA5A1AA5EA6E6A006117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */,
+				9B66E952E27F29569285AB82461A2F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC9EE5B329031F30062050518438D62 /* Build configuration list for PBXNativeTarget "Pods-pruebaPeticiones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED9A1B8B46DA9EE7C99B19E27EE775A /* Debug */,
+				6B8813477B8046756585142BC2804DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

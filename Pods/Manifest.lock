@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.3)
+  - DesignSystem (3.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - DesignSystem
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DesignSystem
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  DesignSystem: 4ddd41c78164bba388856a8345509784ecb42a5f
+
+PODFILE CHECKSUM: 48e8def5e41f3ba0f5cde1081f3f4f3530d49a0d
+
+COCOAPODS: 1.10.1
